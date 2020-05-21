@@ -2,13 +2,23 @@
 <html>
 <head>
     <meta charset="UTF-8"/>
-    <title>	Quiz </title>
+    <title>	Login </title>
 	<link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
 	<script language="javascript">
 	function enviarLogin(){
-		
+	var senha, user;
+	user = document.getElementById("id_nome").value;
+	senha = document.getElementById("id_pass").value;
+	
+	
+	if(user == "Gabriel" && senha == "123"){
+		document.write("sasadassadsad");
+	}else{
+		alert("Usuário ou senha incorreta, por favor tente novamente");
+		return true;
+	}
 		
 		
 
@@ -19,10 +29,10 @@
 		
 		 <form class = "box">
 		 <h1 id="titulo"> Login </h1>
-		 <p> <input type="text" id="id_nome" class=""> </p> 
-		 <p> <input type="password" id="id_pass"> </p> 
-		 <input type="submit"  value="ENVIAR" onclick="return enviarQuiz()">
+		 <p> <input type="text" id="id_nome" placeholder="Usuário" class="user"> </p> 
+		 <p> <input type="password" id="id_pass" placeholder="Senha"class="user"> </p> 
+		 <input type="submit"  value="Entrar" class = "btn"onclick="return enviarLogin()">
 		 </form>
-		 </span>
+		 
 </body>
 </html>
