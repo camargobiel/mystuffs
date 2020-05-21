@@ -1,13 +1,10 @@
+ @import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
+ 
  #titulo{
 	 
-	color: #F4F4F4;
-	
-	
+	color: #f4f4f4;
 	font-family: Arial, sans-serif;
-	background-color: #1e3d42;
-	margin-bottom:60px;
-	
-	
+	font-size: 40px;
 	
  }
  
@@ -31,3 +28,46 @@
 	
 	
  }
+
+ .user{
+	width: 200px;
+	padding: 10px;
+	background-color: #1e3d43; 
+	color:white;
+	border-radius: 10%;
+	margin: 8px 0;
+	border: none;
+	border-bottom: 2px solid white;
+	border-radius: 4px;
+	font-family: Arial, sans-serif;
+ }
+ 
+ .btn {
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+  background: #F4f4f4;
+  border: 1px solid white;
+  outline: none;
+  transition: 0.5s ease-in-out;
+  font-family: Arial, sans-serif;
+  
+}
+
+
+.btn:hover {
+  transition: 0.5s ease-in-out;
+  background: #23464c;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.btn:hover svg {
+  stroke-dashoffset: -480;
+  color:black;
+  font-family: Arial, sans-serif;
+}
+
+
+ 
+ 
